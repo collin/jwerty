@@ -15,8 +15,8 @@
  *
  */
 // Helper methods & vars:
-var $d = global.document
-,   $ = require("jquery")
+var $ = require("jquery")
+,   $d = $("body")[0]._ownerDocument
 ,   $$
 ,   $b
 ,   ke = 'keydown';
